@@ -4,5 +4,4 @@ function askUser() {
     return result;
 }
 
-
-function askUser();
+ askUser();

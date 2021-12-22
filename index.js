@@ -1,6 +1,9 @@
-function askUser() {
-    const name =prompt('Enter your name');
-    alert(`Hello,${name}`);
+const name =prompt('Enter your name');
+function askUser() {   
+    result=(`Hello,${name}`);
+    return result;
 }
 
  askUser();
+
+console.log(result);
